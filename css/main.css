@@ -1,0 +1,319 @@
+*, *:before, *:after {margin: 0px; padding: 0px; box-sizing: border-box;}
+body {
+	/*font-family: 'Montserrat', sans-serif;*/
+	/*font-family: 'Open Sans', sans-serif;*/
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+}
+.container {
+	width: 100%;
+	max-width: 1170px;
+	margin: 0px auto;
+	/*border-left: 1px solid #000;
+	border-right: 1px solid #000;*/
+}
+.wrapper {
+	display: flex;
+	justify-content: center;
+}
+
+/* Header */
+header {
+	padding-top: 66px;
+	padding-bottom: 70px;
+	background: rgba(78,189,254,1);
+	background: -moz-linear-gradient(-45deg, rgba(78,189,254,1) 0%, rgba(55,144,217,1) 100%);
+	background: -webkit-linear-gradient(left top, right bottom, color-stop(0%, rgba(78,189,254,1)), color-stop(100%, rgba(55,144,217,1)));
+	background: -webkit-linear-gradient(-45deg, rgba(78,189,254,1) 0%, rgba(55,144,217,1) 100%);
+	background: -o-linear-gradient(-45deg, rgba(78,189,254,1) 0%, rgba(55,144,217,1) 100%);
+	background: -ms-linear-gradient(-45deg, rgba(78,189,254,1) 0%, rgba(55,144,217,1) 100%);
+	background: linear-gradient(135deg, rgba(78,189,254,1) 0%, rgba(55,144,217,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4ebdfe', endColorstr='#3790d9', GradientType=1 );
+}
+.header_logo {
+	max-width: 98px;
+	max-height: 38px;
+}
+.header_row {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 10px 0px 0px 0px;
+	color: #fff;
+}
+.header_card {
+	width: 100%;
+	max-width: 585px;
+}
+.card_title {
+	font-size: 37px;
+	font-weight: 700;
+}
+.card_title span {
+	font-size: 59px;
+	line-height: 1.5;
+}
+.card_subtitle {
+	font-family: 'Open Sans' sans-serif;
+	font-weight: 400;
+	line-height: 1.3;
+	max-width: 375px;
+	margin: 47px 0px 0px 0px;
+}
+.card_logo {
+	width: 100%;
+	max-width: 585px;
+}
+.button_link {
+	display: inline-block;
+	text-decoration: none;
+	padding: 22px 26px 22px 28px;
+	background-color: #ffd429;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 15px;
+	font-weight: 900;
+	color: #000;
+	transition: all 0.5s ease;
+	margin: 35px 0px 0px 0px;
+}
+.button_link:hover {
+	background-color: #ffffff;
+}
+/* // Header */
+/* Learn */
+.learn {
+	min-width: 100%;
+	padding-top: 108px;
+	padding-bottom: 120px;
+}
+.learn_block {
+	padding: 0px 0px 70px 0px;
+}
+.learn_title {
+	font-size: 30px;
+	font-weight: 700;
+	text-align: center;
+}
+.learn_row {
+	display: flex;
+	justify-content: space-between;
+	text-align: center;
+	align-items: center;
+}
+.learn_card {
+	width: 100%;
+	max-width: 289px;
+	padding: 0px 10px;
+}
+.learn_icon {
+	display: block;
+	margin: 0px auto;
+}
+.learn_card_title {
+	font-size: 19px;
+	font-weight: 700;
+	margin-top: 30px;
+}
+.learn_subtitle {
+	margin-top: 15px;
+	font-size: 15px;
+	font-weight: 400;
+	line-height: 1.5;
+}
+/* // Learn */
+/* E-Mail */
+.email_block {
+	padding: 104px 0px 102px 0px;
+	background-color: #ecf3f8;
+}
+.email_title {
+	text-align: center;
+	font-size: 30px;
+	font-weight: 700;
+	margin-bottom: 57px;
+}
+.email_form {
+	width: 100%;
+	max-width: 340px;
+	margin: 0px auto;
+}
+.email_form input {
+	display: block;
+	font-size: 15px;
+	font-weight: 400;
+	margin: 0px auto 15px;
+	border: 1px solid;
+	border-radius: 3px;
+}
+.email_name {
+	width: 100%;
+	height: 100%;
+	max-width: 380px;
+	min-height: 50px;
+	padding-left: 25px;
+	color: #9c9b9f;
+}
+.email {
+	width: 100%;
+	height: 100%;
+	max-width: 380px;
+	min-height: 50px;
+	padding-left: 25px;
+	color: #9c9b9f;
+}
+.email_tel {
+	width: 100%;
+	height: 100%;
+	max-width: 380px;
+	min-height: 50px;
+	padding-left: 25px;
+	color: #9c9b9f;
+}
+.email_text {
+	width: 100%;
+	height: 100%;
+	max-width: 380px;
+	min-height: 50px;
+	padding-left: 25px;
+	color: #9c9b9f;
+}
+.email_button_link {
+	display: inline-block;
+	text-decoration: none;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 15px;
+	font-weight: 900;
+	background-color: #ffd429;
+	border: 0px;
+	padding: 22px 87px 22px 88px;
+	transition: all 0.5s ease;
+	color: #000000;
+}
+.email_button_link:hover {
+	background-color: #ffffff;
+	cursor: pointer;
+}
+/* // E-Mail */
+/* Footer */
+.footer {
+	background-color: #164d7a;
+	padding: 58px 0px 66px 0px;
+}
+.footer_title  {
+	font-family: 'Open Sans', sans-serif;
+	text-align: center;
+	font-size: 14px;
+	font-weight: 400;
+	color: #ffffff;
+}
+/* // Footer */
+
+
+
+/* Ipad 992px - 1200px */
+@media screen and (max-width: 1200px) {
+	.container {
+		width: 960px;
+	}
+    .header_logo_img {
+        margin-left: 40px;
+    }
+    .header_card {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .card_title {
+        text-align: center;
+    }
+    .card_subtitle {
+        display: block;
+        width: 400px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .button_link {
+        display: block;
+        width: 100%;
+        max-width: 220px;
+        margin: 35px auto 0px;
+    }
+}
+/* // Ipad 992px - 1200px */
+/* Ipad 768px - 992px */
+@media screen and (max-width: 992px){
+	.container {
+		width: 720px;
+	}
+    .header_logo_img {
+        margin-left: 100px;
+    }
+	.header_row {
+		flex-direction: column;
+        margin-top: 35px;
+	}
+	.header_card {
+		max-width: 100%;
+	}
+	.card_logo {
+		max-width: 720px;
+	}
+}
+/* // Ipad 768px - 992px */
+/* Phone 576px - 768px */
+	@media screen and (max-width: 768px) {
+		.container {
+			max-width: 540px;
+		}
+        .header_logo_img {
+            margin-left: 15px;
+        }
+		.learn_row {
+			flex-direction: column;
+		}
+		.learn_card {
+			margin-bottom: 30px;
+		}
+		.learn_card:last-child {
+			margin-bottom: 0px;
+		}
+		.header_card {
+			max-width: 100%;
+		}
+		.card_logo {
+			max-width: 540px;
+		}
+	}
+/* // Phone 576px - 992px */
+/* Mobill 320px - 576px */
+	@media screen and (max-width: 576px) {
+		.container {
+            width: 100%;
+		}
+		.card_title {
+			font-size: 19px;
+		}
+		.card_title span {
+			font-size: 28px;
+		}
+		.card_subtitle {
+			font-size: 13px;
+			margin-top: 20px;
+		}
+		.card_button {
+            width: 100%;
+			max-width: 220px;
+			margin-left: auto;
+			margin-right: auto;
+		}
+		.learn_title {
+			font-size: 25px;
+		}
+		input {
+			max-width: 100%;
+		}
+		.email_button_link {
+			width: 100%;
+		}
+	}
+/* // Mobill 320px - 576px*/
